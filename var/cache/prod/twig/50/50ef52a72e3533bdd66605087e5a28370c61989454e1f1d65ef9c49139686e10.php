@@ -170,7 +170,10 @@ class __TwigTemplate_8f97d56d11f55cd6cc268e3973b8cc8f63095f9a4fed796ca3712b30f92
             <div class=\"row\">
                 <div class=\"col-sm-6\">
                     <div class=\"logo\">
-                        <h1><a href=\"./\"><img src=\"img/logo.png\"></a></h1>
+                        <h1><a href=\"./\"><img src=\"";
+        // line 85
+        echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("assets/img/logo.png"), "html", null, true);
+        echo "\"></a></h1>
                     </div>
                 </div>
                 
@@ -282,7 +285,7 @@ class __TwigTemplate_8f97d56d11f55cd6cc268e3973b8cc8f63095f9a4fed796ca3712b30f92
 
     public function getDebugInfo()
     {
-        return array (  268 => 149,  264 => 148,  258 => 145,  252 => 142,  246 => 139,  242 => 138,  233 => 131,  230 => 130,  225 => 128,  222 => 127,  192 => 99,  189 => 98,  168 => 80,  165 => 79,  120 => 36,  117 => 35,  112 => 25,  106 => 7,  101 => 151,  98 => 130,  96 => 127,  93 => 126,  90 => 98,  88 => 79,  85 => 78,  83 => 35,  72 => 26,  70 => 25,  65 => 23,  61 => 22,  57 => 21,  51 => 18,  45 => 15,  34 => 7,  26 => 1,);
+        return array (  271 => 149,  267 => 148,  261 => 145,  255 => 142,  249 => 139,  245 => 138,  236 => 131,  233 => 130,  228 => 128,  225 => 127,  195 => 99,  192 => 98,  175 => 85,  168 => 80,  165 => 79,  120 => 36,  117 => 35,  112 => 25,  106 => 7,  101 => 151,  98 => 130,  96 => 127,  93 => 126,  90 => 98,  88 => 79,  85 => 78,  83 => 35,  72 => 26,  70 => 25,  65 => 23,  61 => 22,  57 => 21,  51 => 18,  45 => 15,  34 => 7,  26 => 1,);
     }
 }
 /* <!DOCTYPE html>*/
@@ -369,7 +372,7 @@ class __TwigTemplate_8f97d56d11f55cd6cc268e3973b8cc8f63095f9a4fed796ca3712b30f92
 /*             <div class="row">*/
 /*                 <div class="col-sm-6">*/
 /*                     <div class="logo">*/
-/*                         <h1><a href="./"><img src="img/logo.png"></a></h1>*/
+/*                         <h1><a href="./"><img src="{{ asset('assets/img/logo.png') }}"></a></h1>*/
 /*                     </div>*/
 /*                 </div>*/
 /*                 */
