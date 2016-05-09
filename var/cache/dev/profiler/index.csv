@@ -160,3 +160,9 @@ a386ab,127.0.0.1,GET,http://dtdd.dev/assets/img/h4-slide.png')%20%7D%7D,14625107
 662f1f,127.0.0.1,GET,http://dtdd.dev/assets/img/h4-slide.png')%20%7D%7D,1462510749,,404
 4a8433,127.0.0.1,GET,http://dtdd.dev/,1462510775,,200
 914bb7,127.0.0.1,GET,http://dtdd.dev/,1462510829,,200
+9c2381,127.0.0.1,GET,http://dtdd.dev/single-product.html,1462516170,bd61cf,200
+bd61cf,127.0.0.1,GET,http://dtdd.dev/single-product.html,1462516170,,404
+94a9d9,127.0.0.1,GET,http://dtdd.dev/,1462519592,,200
+6631cd,127.0.0.1,GET,http://dtdd.dev/cart.html,1462519632,b37af9,200
+b37af9,127.0.0.1,GET,http://dtdd.dev/cart.html,1462519632,,404
+e6500b,127.0.0.1,GET,http://dtdd.dev/,1462756271,,200
